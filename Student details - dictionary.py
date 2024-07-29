@@ -6,3 +6,5 @@ del student["age"]
 print(student["grade"])
 student["age"]=20
 print(student["age"])
+for key,value in student.items():
+    print(key,value)
